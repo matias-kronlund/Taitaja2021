@@ -1,0 +1,87 @@
+$color1: #023059;
+$color2: #F205B3;
+$color3: #002141;
+$color4: #012326;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Racing Sans One', cursive;
+}
+body{
+    background: $color1;
+}
+#content{
+    #center-box{
+        width: 700px;
+        margin: auto;
+        border: 1px solid black;
+        .table{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            width:700px;
+            background: $color3;
+            div{
+                border-right: 1px solid black;
+                margin: 3px;
+                color: #F205B3;
+            }
+        }
+        .shipping{
+            margin-top: 10px;
+            text-align: center;
+            button{
+                width: 150px;
+                padding: 5px;
+                font-size: 14px;
+                color: #F205B3;
+                background: $color4;
+                outline: none;
+                border: none;
+                cursor: pointer;
+                &:hover{
+                    background: #011113;
+                }
+            }
+            .activeb{
+                background: #011113;
+            }
+            
+        }
+        .frm{
+            margin: auto;
+            margin-top: 10px;
+            background: $color3;
+            width: 300px;
+            padding: 20px;
+            form{
+                button{
+                    margin: auto;
+                    margin-top: 10px;
+                    display: block;
+                    width: 150px;
+                    padding: 5px;
+                    font-size: 14px;
+                    color: #F205B3;
+                    background: $color4;
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                    &:hover{
+                        background: #011113;
+                    }
+                }
+                input{
+                    display: block;
+                    margin: auto;
+                    margin-top: 10px;
+                    outline: none;
+                    padding: 4px;
+                    border-radius: 10px;
+                    border: none;
+                    
+                }
+            }
+        }
+    }
+}

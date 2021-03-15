@@ -1,0 +1,74 @@
+* {
+  font-family: 'Racing Sans One', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+body {
+  min-height: calc(100vh + 600px);
+  background: #012840;
+  position: relative;
+}
+
+#banner {
+  background-image: url("../../images/stock/pexels-andrea-piacquadio-3807649.jpg");
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#content h1 {
+  color: #F205B3;
+  text-align: center;
+  display: block;
+  padding: 30px;
+}
+
+#content #videocon {
+  display: block;
+  text-align: center;
+}
+
+#content #videocon iframe {
+  width: 910px;
+  height: 511px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: #012326;
+  height: 300px;
+}
+
+footer .cols {
+  width: 800px;
+  padding: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+footer .cols ul {
+  list-style-type: none;
+}
+
+footer .cols ul li {
+  color: #F205B3;
+  padding: 5px;
+}
+/*# sourceMappingURL=main.css.map */

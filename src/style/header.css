@@ -1,0 +1,53 @@
+* {
+  font-family: 'Racing Sans One', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+header nav {
+  height: 90px;
+  background: #012326;
+}
+
+header nav img {
+  margin-left: 50px;
+  height: 90px;
+}
+
+header nav ul {
+  margin-right: 50px;
+  margin-top: 25px;
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  display: block;
+}
+
+header nav ul li a h2 {
+  color: #F205B3;
+  display: block;
+}
+
+header nav ul .current_page {
+  border-bottom: 2px solid #F205B3;
+}
+/*# sourceMappingURL=header.css.map */

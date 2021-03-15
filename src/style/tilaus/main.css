@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Racing Sans One', cursive;
+}
+
+body {
+  background: #023059;
+}
+
+#content #center-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 1fr;
+      grid-template-columns: 300px 1fr;
+  width: 700px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+#content #center-box #pers {
+  color: #F205B3;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 50px 50px 50px;
+      grid-template-rows: 50px 50px 50px;
+  padding: 7px;
+}
+
+#content #center-box #pers div label {
+  font-size: 10px;
+}
+
+#content #center-box #pers div p {
+  margin-top: -5px;
+  font-size: 14px;
+}
+
+#content #center-box .table {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px 200px;
+      grid-template-columns: 100px 200px;
+  -ms-grid-rows: 50px 50px;
+      grid-template-rows: 50px 50px;
+  width: 700px;
+  background: #002141;
+}
+
+#content #center-box .table img {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+#content #center-box .table div {
+  margin: 3px;
+  color: #F205B3;
+  padding: 5px;
+}
+
+#content #center-box .table .pprice {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  margin-top: -20px;
+  text-align: right;
+}
+
+#content #center-box .table .pname {
+  text-align: right;
+}
+/*# sourceMappingURL=main.css.map */

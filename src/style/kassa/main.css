@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Racing Sans One', cursive;
+}
+
+body {
+  background: #023059;
+}
+
+#content #center-box {
+  width: 700px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+#content #center-box .table {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 700px;
+  background: #002141;
+}
+
+#content #center-box .table div {
+  border-right: 1px solid black;
+  margin: 3px;
+  color: #F205B3;
+}
+
+#content #center-box .shipping {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#content #center-box .shipping button {
+  width: 150px;
+  padding: 5px;
+  font-size: 14px;
+  color: #F205B3;
+  background: #012326;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#content #center-box .shipping button:hover {
+  background: #011113;
+}
+
+#content #center-box .shipping .activeb {
+  background: #011113;
+}
+
+#content #center-box .frm {
+  margin: auto;
+  margin-top: 10px;
+  background: #002141;
+  width: 300px;
+  padding: 20px;
+}
+
+#content #center-box .frm form button {
+  margin: auto;
+  margin-top: 10px;
+  display: block;
+  width: 150px;
+  padding: 5px;
+  font-size: 14px;
+  color: #F205B3;
+  background: #012326;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#content #center-box .frm form button:hover {
+  background: #011113;
+}
+
+#content #center-box .frm form input {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  outline: none;
+  padding: 4px;
+  border-radius: 10px;
+  border: none;
+}
+/*# sourceMappingURL=main.css.map */

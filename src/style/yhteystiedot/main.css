@@ -1,0 +1,52 @@
+* {
+  font-family: 'Racing Sans One', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+#banner {
+  background-image: url("../../images/stock/tekton-O_ufcLVTAYw-unsplash.jpg");
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#content {
+  text-align: center;
+  background: #012840;
+}
+
+#content img {
+  height: 500px;
+  padding: 20px;
+}
+
+#content .cols {
+  width: 800px;
+  margin: auto;
+}
+
+#content .cols ul {
+  text-align: left;
+  margin: 50px;
+  display: inline-block;
+  list-style-type: none;
+}
+
+#content .cols ul li {
+  color: #F205B3;
+  padding: 5px;
+}
+/*# sourceMappingURL=main.css.map */

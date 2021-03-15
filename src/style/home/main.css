@@ -1,0 +1,174 @@
+* {
+  font-family: 'Racing Sans One', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+body {
+  background: #012840;
+}
+
+#banner {
+  background-image: url("../../images/stock/arseny-togulev-xTXIAVRI3rA-unsplash.jpg");
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner img {
+  height: 20vh;
+  margin-top: 5vh;
+  margin-left: 50px;
+  border: 1px solid #012326;
+}
+
+#content #sorters {
+  margin-top: 50px;
+  margin-right: 70px;
+  text-align: right;
+}
+
+#content #sorters button {
+  padding: 0px 18px;
+  height: 40px;
+  line-height: 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+  outline: none;
+  background: #023059;
+  color: #F205B3;
+  cursor: pointer;
+}
+
+#content #sorters button:hover {
+  background: #002141;
+}
+
+#content #sorters .current {
+  background: #002141;
+}
+
+#content .app {
+  margin: 0px 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 250px 1fr;
+      grid-template-columns: 250px 1fr;
+}
+
+#content .app .props {
+  color: #F205B3;
+  padding: 20px;
+  background: #023059;
+  border-right: 1px solid gray;
+}
+
+#content .app .props .category ul {
+  color: white;
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+#content .app .props .category ul li {
+  margin-top: 10px;
+}
+
+#content .app .props .category ul h2 {
+  position: relative;
+}
+
+#content .app .props .category ul input {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 190px;
+}
+
+#content .app .products {
+  background: #023059;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(220px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+#content .app .products > div {
+  background: white;
+  height: 350px;
+  position: relative;
+  text-align: center;
+}
+
+#content .app .products > div img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+#content .app .products > div h2 {
+  text-align: left;
+  margin-left: 10px;
+}
+
+#content .app .products > div ul {
+  text-align: left;
+  float: left;
+  margin-left: 10px;
+}
+
+#content .app .products > div ul li {
+  margin-left: 20px;
+}
+
+#content .app .products > div ul li:nth-child(3) {
+  color: red;
+  font-weight: 800;
+}
+
+footer {
+  margin-top: 50px;
+  background: #012326;
+  height: 300px;
+}
+
+footer .cols {
+  width: 800px;
+  padding: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+footer .cols ul {
+  list-style-type: none;
+}
+
+footer .cols ul li {
+  color: #F205B3;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 1600px) {
+  #content #sorters {
+    margin-right: 20px;
+  }
+  #content .app {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
